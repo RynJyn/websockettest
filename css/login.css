@@ -1,0 +1,106 @@
+body 
+{
+	background: #eee;
+	font-family: "Segoe UI";
+}
+body,html
+{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+
+.flex
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#login-box
+{
+	width: 400px;
+	background: #fff;
+	/*border: 1px solid #ddd;*/
+	border-radius: 5px;
+	/*box-shadow: 1px 1px 2px #aaa;*/
+}
+
+#login-box h1 
+{
+	text-transform: uppercase;
+    background: #48a2de;
+    padding: 5px;
+    margin: 0;
+    color: white;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#login-box a 
+{
+	color: #246a99;
+}
+
+#login-form 
+{
+	margin-top: 3em;
+}
+
+input::placeholder 
+{
+	color: #aaaaaa;
+}
+
+input[type="text"], input[type="password"]
+{
+	height: 50px;
+	width: 300px;
+	display: block;
+	margin: auto;
+	margin-bottom: 1em;
+	border-radius: 10px 10px;
+	border: 1px solid #ddd;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	font-size: 20px;
+	box-sizing: border-box;
+	color: #777777;
+}
+
+input[type="text"]:focus, input[type="password"]:focus 
+{
+	outline: none;
+}
+
+input[type="submit"]
+{
+	margin: auto;
+	display: block;
+	margin-top: 3em;
+	margin-bottom: 1em;
+	background: #48a2de;
+	border: none;
+	padding: 1em;
+	width: 300px;
+	font-size: 18px;
+	color: white;
+	text-shadow: 1px 1px 2px #3e5a70;
+	font-weight: 600;
+}
+
+h1 
+{
+	text-align: center;
+}
+
+#login-box p 
+{
+	text-align: center;
+}
+
+#error 
+{
+	color: red;
+}

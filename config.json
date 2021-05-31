@@ -1,0 +1,8 @@
+{
+	"serverConfig": 
+				{
+					"serverIP": "SERVERIP",
+					"serverPort": "SERVERPORT"
+				}
+					
+}
